@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divs For Trust</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+  <style>
+    .madimi-one-regular {
+      font-family: "Madimi One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #333;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+
+    .box {
+      width: 500px;
+      height: 300px;
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      margin: 10px;
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow: hidden;
+      border-radius: 20px; 
+      transition: background-color 0.3s ease; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box:hover {
+      background-color: #2980b9;
+    }
+
+    .box:hover .buttons {
+      opacity: 1; 
+    }
+
+    .buttons {
+      position: absolute;
+      bottom: 20px;
+      left: 40px;
+      display: flex;
+      gap: 25px; 
+      opacity: 0; 
+      transition: opacity 0.5s ease; 
+    }
+
+    .box button {
+      background-color: #fdcc1ba1; 
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px; 
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    .box-text {
+      font-family: "Madimi One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 45px;
+      position: relative; 
+      top: -65px;
+      color:#ffffffcc;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="box" style="background-image: url('https://cdn.discordapp.com/attachments/1218605991013388355/1218618918302650538/a550227a9f07c2b8f391a512bbb4a05c.png?ex=6608524e&is=65f5dd4e&hm=dc725bbba399e9a282d9687d580b858cd587e478a9e57917287fe5627ac8ac82&')">
+      <div class="box-text">
+        Sovereign Group
+      </div>
+      <div class="buttons">
+        <button onclick="window.location.href='jana.html'">Donate</button>
+        <button onclick="window.location.href='Sovereign Group.html'">View Details</button>
+      </div>
+    </div>
+    <div class="box" style="background-image: url('https://cdn.discordapp.com/attachments/1218605991013388355/1218618985612972133/722ea947fe5ed9e0725e0586ea945e5d.png?ex=6608525f&is=65f5dd5f&hm=3bfe898370f935b442699414c2eea7d8c8d7fd20c666d091710fb6f0d035f8e3&')">
+      <div class="box-text">Citadel Trust</div>
+      <div class="buttons">
+        <button onclick="window.location.href='jana.html'">Donate</button>
+        <button onclick="window.location.href='Citadel Trust.html'">View Details</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="box" style="background-image: url('https://cdn.discordapp.com/attachments/1218605991013388355/1218619039371231362/e308815438a3d93df71af1c8b7dc6829.png?ex=6608526b&is=65f5dd6b&hm=79b70dd038ec317b012f1391808404700041560a4d982e3bf801d5c4f203a2be&')">
+      <div class="box-text">Vanguard Corporation</div>
+      <div class="buttons">
+        <button onclick="window.location.href='jana.html'">Donate</button>
+        <button onclick="window.location.href='Vanguard Corporation.html'">View Details</button>
+      </div>
+    </div>
+    <div class="box" style="background-image: url('https://cdn.discordapp.com/attachments/1218605991013388355/1218619315377410189/62f1e0b20b1ca4bf1ae71fac421d4350.png?ex=660852ad&is=65f5ddad&hm=6ec64e8578973158b0ee81282cf76c9ef89fa334e34a94710df6525732fb5ecf&')">
+      <div class="box-text">Fortress Solutions</div>
+      <div class="buttons">
+        <button onclick="window.location.href='jana.html'">Donate</button>
+        <button onclick="window.location.href='Fortress Solutions.html'">View Details</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
